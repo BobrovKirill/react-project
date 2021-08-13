@@ -1,0 +1,102 @@
+.red-text {
+  color: red;
+}
+.wellcome {
+  background: url(../assets/wellcome.jpg) center center no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 100vh;
+}
+.top-nav-collapse {
+  background-color: #ccc7c6;
+}
+.feedbackImg {
+  background: url('../assets/feedback.jpeg') no-repeat center center;
+  background-size: cover;
+}
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.transition-color {
+  transition: background 1s ease;
+}
+.mask {
+  filter: brightness(87%)
+}
+.hr-light {
+	height: 1.2px;
+	background-color: white;
+ }
+ .hr-dark {
+	height: 0.5px;
+	background-color: black;
+ }
+ .pages-height {
+	height: 100%;
+	/*height: 100vh;*/
+	box-sizing: border-box;
+ }
+ .pages-height1 {
+	flex: 1 1 auto;
+	display: block; 
+ }
+ .box-sizing {
+	 box-sizing:content-box
+ }
+ .h-90{
+	height: 90%;
+ }
+ .border-none{
+	 border: none;
+ }
+ .modal-home {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	border: 5px solid #CCC;
+	border-radius: 20px;
+	z-index: 200;
+	box-shadow: #000 0 2px 18px;
+	background: white;
+
+ }
+ .btn-secondary{
+	 border-color: white;
+ }
+.btn-secondary:hover{
+	color: red;
+	border-color: red;
+}
+.btn-secondary:active{
+	box-shadow: red 0 2px 100px;
+
+}
+.btn-secondary:not(:disabled):not(.disabled).active{
+	color:red;
+	background-color:rgba(73, 71, 71, 0.89);
+	box-shadow:red 0 2px 10px;
+}
+
+.link-header:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	border: red solid 1px;
+	border-radius: 10px;
+	opacity: 0;
+	transition: opacity 0.4s linear;
+
+	background-color: red;
+
+}
+.link-header:hover{
+	color: red
+}
+.link-header:hover:after{
+	opacity: 1;
+}
